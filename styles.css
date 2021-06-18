@@ -1,13 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body{
-    font-family: 'Lato', sans-serif;   
+    font-family: 'Lato', sans-serif;  
+    background-color:lavenderblush; 
 }
 
 
 .poster{
-   max-width: 100%;
+   max-width: 700px;
    height: auto;
-   margin: auto;
+   margin: 0;
    padding: 2rem;
+   box-shadow: inset 0px 0px 0px 50px;
+  
 }
+.content{
+    font-size: x-large;
+}
+.center{
+
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+.heading{
+    font-size: xx-large;
+    padding: 2rem 0.5rem;
+}
+    
+ .heading-main{
+     text-align: center;
+     margin-top: 3.5rem;
+     padding-bottom: 3.5rem;
+ }   
+
+ .intermission{
+     padding: 5rem 0rem;
+     font-size:xx-large;
+     font-style: normal;
+     color:steelblue;
+ }
+
+ .intermission-end{
+
+    padding: 3rem 0rem;
+    text-align: center;
+    font-size: x-large;
+ }
+
+ .items-inline{
+
+    display: inline;
+    padding: 1rem 1rem;
+ }
+
+ .space{
+
+    padding: 0rem 1rem;
+ }
+
+ .link{
+
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 0.5rem 18rem;
+    
+    
+ }
