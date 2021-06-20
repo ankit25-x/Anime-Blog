@@ -22,7 +22,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right:auto;
-
 }
 
 .heading{
@@ -40,33 +39,41 @@ body{
      padding: 5rem 0rem;
      font-size:xx-large;
      font-style: normal;
-     color:steelblue;
+     color:rebeccapurple;
+     
  }
 
  .intermission-end{
 
-    padding: 3rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
     font-size: x-large;
- }
-
- .items-inline{
-
-    display: inline;
-    padding: 1rem 1rem;
- }
-
- .space{
-
-    padding: 0rem 1rem;
- }
-
- .link{
-
     text-align: center;
+ }
+
+ 
+ .link{
     font-weight: bolder;
     text-decoration: none;
-    padding: 0.5rem 18rem;
-    
-    
+    border-radius: 0.5rem;
+    border-style: solid;
+    background-color: gold;
+   padding: 0rem 5rem;
+   cursor: -moz-grabbing;
  }
+
+
+
+ .list-non-bullet{
+
+    list-style: none;
+ }
+
+ .list-item-inline{
+    display: inline;
+    padding: 0rem 3rem;
+}
+
+.description{
+    color: 
+}
